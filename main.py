@@ -10,7 +10,7 @@ def read_root():
 
 from fastapi import Request
 
-VERIFY_TOKEN = "Willis514099"  # pick any random string
+VERIFY_TOKEN = "super-secret-token-change-this"  # pick any random string
 
 @app.get("/webhook/instagram")
 async def verify_webhook(request: Request):
